@@ -1,0 +1,61 @@
+.clinic-inquiries {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.inquiry-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inquiry-card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.inquiry-card p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.inquiry-card p strong {
+    color: #333;
+}
+
+.inquiry-card button {
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inquiry-card button:hover {
+    background-color: #005a87;
+}
+
+.inquiry-filters {
+    margin-bottom: 20px;
+}
+
+.inquiry-filters label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inquiry-filters select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
